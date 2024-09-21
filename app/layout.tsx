@@ -1,9 +1,9 @@
 import { ThemeProvider } from '@/components/providers/theme-provider'
+import { Toaster } from '@/components/ui/sonner'
 import { ChildProps } from '@/types'
 import type { Metadata } from 'next'
 import { Crete_Round, Work_Sans } from 'next/font/google'
 import './globals.css'
-import { Toaster } from '@/components/ui/sonner'
 
 const creteRound = Crete_Round({
 	weight: ['400'],
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
 		type: 'website',
 		locale: 'uz_UZ',
 		images:
-			'https://www.google.com/url?sa=i&url=https%3A%2F%2Fsammi.ac%2F&psig=AOvVaw14TY_sXprr2SLa-xPNiHEq&ust=1720464331293000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMD_i6DLlYcDFQAAAAAdAAAAABAE',
-		countryName:"Uzbekistan"
+			'https://encrypted-tbn0.gstatic.com/images q=tbn:ANd9GcSAYdfzKFtXqMRghkqwvweGypJO-vBl4eSFQQ&s',
+		countryName: 'Uzbekistan',
 	},
 }
 
