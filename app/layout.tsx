@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 		type: 'website',
 		locale: 'uz_UZ',
 		images:
-			'https://eu-west-2.graphassets.com/cly9a0ovb6iwb07mmd6thdy1t/cm1c4pvfthstw07mm8jyi4lar',
+			'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg',
 		countryName: 'Uzbekistan',
 	},
 }
