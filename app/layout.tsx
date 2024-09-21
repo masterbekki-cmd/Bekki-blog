@@ -30,10 +30,8 @@ export const metadata: Metadata = {
 			'Dasturlash haqida yangiliklar, maslahatlar, va dasturlash sohasidagi eng soʻnggi xabarlar. Bizning blogda dasturlashni oʻrganish va rivojlantirish uchun qoʻllanma topishingiz mumkin.',
 		type: 'website',
 		locale: 'uz_UZ',
-		images: [
-			'https://encrypted-tbn0.gstatic.com/images q=tbn:ANd9GcSAYdfzKFtXqMRghkqwvweGypJO-vBl4eSFQQ&s',
-		],
-
+		images:
+			'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		countryName: 'Uzbekistan',
 	},
 }
