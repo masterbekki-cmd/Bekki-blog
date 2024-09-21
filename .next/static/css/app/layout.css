@@ -1864,7 +1864,16 @@ video {
 	z-index: -1;
 	opacity: 0.1;
 }
-
+@media screen and (max-width: 700px) {
+	.wave {
+		width: 400px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.wave {
+		display: none;
+	}
+}
 .section-title {
 	position: relative;
 }
