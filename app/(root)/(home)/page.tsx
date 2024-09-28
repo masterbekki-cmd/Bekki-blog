@@ -9,7 +9,7 @@ async function HomePage() {
 			<div className='relative min-h-[60vh] flex items-center justify-center mt-8'>
 				<h1 className='text-3xl md:text-4xl lg:text-5xl font-creteRound text-center max-w-3xl'>
 					<span className='text-blue-500'>Bekki</span> - Dasturlashga oid
-					bloglar va darsliklar to'plami
+					bloglar va darsliklar to'plamii
 				</h1>
 				<BgArrow />
 			</div>
