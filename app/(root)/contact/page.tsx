@@ -24,7 +24,7 @@ function ContactPage() {
 						href={'/'}
 						className='opacity-90 hover:underline hover:opacity-100'
 					>
-						Home
+						Bosh sahifa
 					</Link>
 					<Dot />
 					<p className='text-muted-foreground'>Bog'lanish</p>

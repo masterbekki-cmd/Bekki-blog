@@ -1,12 +1,12 @@
 import AuthorCard from '@/components/cards/author'
 import { authors } from '@/constants'
 import { Dot, Home } from 'lucide-react'
-import Link from 'next/link'
-import Image from 'next/image'
 import { Metadata } from 'next'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
-	title:"Biz haqimizda | Dasturlash haqida blog"
+	title: 'Biz haqimizda | Dasturlash haqida blog',
 }
 function AboutPage() {
 	return (
@@ -22,10 +22,10 @@ function AboutPage() {
 						href={'/'}
 						className='opacity-90 hover:underline hover:opacity-100'
 					>
-						Home
+						Bosh sahifa
 					</Link>
 					<Dot />
-					<p className='text-muted-foreground'>About</p>
+					<p className='text-muted-foreground'>Haqimizda</p>
 				</div>
 			</div>
 			<h1 className='text-center text-4xl font-creteRound'>
@@ -66,10 +66,12 @@ function AboutPage() {
 
 			<div className='max-w-6xl mx-auto mt-12 flex flex-col text-center space-y-4 text-muted-foreground'>
 				<p>
-					If ever a place existed where you could just go crazy creatively, it
-					is definitely your about page. It’s your chance to show your readers
-					who you really are. Pictures, quotes, inspirational graphics, whatever
-					it is that drives you.. Display it here in a way that only you can.
+					Agar ijodkorlik bilan aqldan ozishingiz mumkin bo'lgan joy mavjud
+					bo'lsa, bu sizning sahifangizdir. Bu sizning o'quvchilaringizga
+					kimligingizni ko'rsatish imkoniyatidir. Rasmlar, iqtiboslar,
+					ilhomlantiruvchi grafiklar, sizni harakatga keltiradigan nima
+					bo'lishidan qat'i nazar.. Bu yerda uni faqat o'zingiz qila oladigan
+					tarzda ko'rsating.
 				</p>
 				<p>
 					I’ve included a plugin in the setup of this theme that will make
