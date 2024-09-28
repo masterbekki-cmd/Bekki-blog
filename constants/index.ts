@@ -1,10 +1,4 @@
-import {
-	Contact2,
-	FileCode2,
-	FolderArchive,
-	Home,
-	ListCollapse,
-} from 'lucide-react'
+import { Contact2, FileCode2, Home, ListCollapse } from 'lucide-react'
 
 export const navLinks = [
 	{ name: 'Bosh sahifa', route: '/', icon: Home },
@@ -69,16 +63,8 @@ export const blogs = [
 
 export const authors = [
 	{
-		name: 'Chris Impey',
-		image: '/author/chris-impey.jpg',
-	},
-	{
-		name: 'Thomas Macaulay',
-		image: '/author/thomas-macaulay.jpg',
-	},
-	{
-		name: 'Emma Hazel',
-		image: '/author/emma-hazel.jpg',
+		name: 'Umarjonov Bekzod ',
+		image: '/author/bekzod.JPG',
 	},
 ]
 

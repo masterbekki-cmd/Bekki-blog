@@ -1,4 +1,4 @@
-// File: A:\CMS-Blog UI\app\layout.tsx
+// File: D:\CMS-Blog UI\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
