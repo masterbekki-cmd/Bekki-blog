@@ -70,7 +70,7 @@ function ContactForm() {
 								<Textarea
 									disabled={loading}
 									className='resize-none h-32'
-									placeholder='Ask question or just say Hi'
+									placeholder='Savol bering yoki shunchaki salom ayting'
 									{...field}
 								/>
 							</FormControl>
@@ -85,7 +85,7 @@ function ContactForm() {
 						<FormItem>
 							<FormControl>
 								<Input
-									placeholder='Email address'
+									placeholder='Email manzil'
 									{...field}
 									disabled={loading}
 								/>
@@ -101,7 +101,7 @@ function ContactForm() {
 						<FormItem>
 							<FormControl>
 								<Input
-									placeholder='Your name here'
+									placeholder='Sizning ismingiz'
 									{...field}
 									disabled={loading}
 								/>
@@ -111,7 +111,7 @@ function ContactForm() {
 					)}
 				/>
 				<Button type='submit' className='w-fit' size={'lg'}>
-					<span>Send</span>
+					<span>Jo'natish</span>
 					<Send className='w-4 h-4 ml-2' />
 				</Button>
 			</form>
