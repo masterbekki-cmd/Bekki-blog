@@ -37,11 +37,14 @@ export const getBlogs = async () => {
 			}
 		}
 	`
-	const { blogs } = await request<{ blogs: IBlog[] }>(graphqlAPI, query)
+	const { blogs } = await request<{ blogs: IBlog[] }>(graphqlAPI, query,{},
+    {
+      next: { revalidate: 60 }, // har 60 sekundda yangilanadi
+    })
 	return blogs
 }
 
-export const getDetailedBlog = cache(async (slug: string) => {
+export const getDetailedBlog = async (slug: string) => {
 	const query = gql`
 		query MyQuery($slug: String!) {
 			blog(where: { slug: $slug }) {
@@ -72,9 +75,11 @@ export const getDetailedBlog = cache(async (slug: string) => {
 	`
 	const { blog } = await request<{ blog: IDetailedBlog }>(graphqlAPI, query, {
 		slug,
-	})
+	}, {
+      next: { revalidate: 60 }, // har 60 sekundda yangilanadi
+    })
 	return blog
-})
+}
 
 
 export const getSearchBlogs = async (title: string) => {
